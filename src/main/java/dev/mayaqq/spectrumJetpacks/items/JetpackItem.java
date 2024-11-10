@@ -62,7 +62,6 @@ public class JetpackItem extends SpectrumTrinketItem implements InkStorageItem<S
         super.tick(stack, slot, entity);
         if (entity instanceof PlayerEntity player) {
             if (entity.getWorld().isClient) {
-
                 SingleInkStorage inkStorage = EquipUtils.getEnergyStorage(stack);
                 long storedInk = inkStorage.getEnergy(inkStorage.getStoredColor());
 
