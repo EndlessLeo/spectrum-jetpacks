@@ -35,6 +35,9 @@
     "spectrum": ">=1.8.0",
     "java": ">=17"
   },
+  "suggests": {
+    "modmenu": "*"
+  },
   "custom": {
     "modmenu": {
       "links": {
