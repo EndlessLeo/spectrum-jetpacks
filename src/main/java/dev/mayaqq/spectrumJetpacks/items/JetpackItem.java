@@ -147,6 +147,7 @@ public class JetpackItem extends SpectrumTrinketItem implements InkStorageItem<S
         equippedJetpack = stack;
     }
 
+    @Override
     public void onUnequip(ItemStack stack, SlotReference slot, LivingEntity entity) {
         super.onUnequip(stack, slot, entity);
         equippedJetpack = null;

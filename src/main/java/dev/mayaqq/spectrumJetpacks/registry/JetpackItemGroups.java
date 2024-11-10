@@ -8,7 +8,7 @@ public class JetpackItemGroups {
     public static void init() {
         ItemSubGroupEvents.modifyEntriesEvent(ItemGroupIDs.SUBTAB_EQUIPMENT).register(entries -> {
             entries.add(JetpackItems.GEMSTONE_JETPACK);
-            entries.add(JetpackItems.GEMSTONE_JETPACK);
+            entries.add(JetpackItems.BEDROCK_JETPACK);
         });
     }
 }
